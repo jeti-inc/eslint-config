@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "author": "Torrey Leonard",
+  "license": "ISC",
+  "scripts": {
+    "release": "release-it --verbose"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": ">= 7.3.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.0.0",
+    "release-it": "^13.6.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "git": {
+	"changelog": "auto-changelog --stdout --commit-limit false --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs",
+	"requireUpstream": false,
+	"tagName": "v${version}"
+  },
+  "hooks": {
+	"after:bump": "auto-changelog -p"
+  },
+  "npm": {
+	"publish": true
+  }
+}
